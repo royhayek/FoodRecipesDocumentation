@@ -1,10 +1,42 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Getting Started": [
+      "welcome"
+    ],
+    "Flutter SDK": [
+      "fluttersdk/installation"
+    ],
+    "Android Studio": [
+      "androidstudio/installation",
+      "androidstudio/importproject",
+      "androidstudio/configuredevice",
+      "androidstudio/packagename",
+      "androidstudio/firebaseconfig"
+    ],
+    "Visual Studio Code": [
+      "visualstudio/installation",
+      "visualstudio/importproject",
+      "visualstudio/configuredevice",
+      "visualstudio/packagename",
+      "visualstudio/firebaseconfig"
+    ],
+    "Admin Panel": [
+      "adminpanel/installation",
+      "adminpanel/environmentconfig",
+      "adminpanel/databaseconfig",
+      "adminpanel/mailserver",
+      "adminpanel/pushnotifications"
+    ],
+    "App Configuration": [
+      "appconfig/appname",
+      "appconfig/appicon",
+      "appconfig/serverconnnection",
+      "appconfig/googlesignin",
+      "appconfig/facebooksignin",
+      "appconfig/appconstants",
+      "appconfig/generatesignedapk",
+      "appconfig/buildandreleaseiosapp"
+    ]
   }
+
 }
