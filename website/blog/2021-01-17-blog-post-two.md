@@ -23,4 +23,5 @@ Application features:
 
 Coming Soon:
 - In the upcoming versions we will be adding the Pusher Framework which notifies the admin when a recipe is added
+- Sending notification to user when his recipe is approved
 
