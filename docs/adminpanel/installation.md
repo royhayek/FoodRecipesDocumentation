@@ -23,6 +23,10 @@ Plesk, cPanel, hPanel and other hosting managers are recommended. In this guide,
 
 <b>1. Create your domain or subdomain in your shared hosting</b>
 
+<b>To host it on Plesk you need to create a subdomain or domain with /public  ex. subdomain.domain.com/public or domain.com/public</b>
+
+![alt-text](assets/img/adminpanel/11.png)
+
 After you have created that, you will be able to access the file manager for that domain/subdomain
 Delete any default files that are maybe added.
 
@@ -38,11 +42,20 @@ as shown in the picture below:
 
 ![alt-text](assets/img/adminpanel/1.png)
 
-<b>3. Upload the source code you have downloaded from CodeCanyon and unzip it (in the admin_panel folder)</b>
+<b>3. Upload the source code you have downloaded from CodeCanyon and unzip it (found in admin_panel folder)</b>
+
+<b>After uploading the files go to Bootstrap -> cache and rename config.php to something else ex. _config.php</b>
+
+![alt-text](assets/img/adminpanel/12.png)
+
+
+<b>Then Enable writing permissions for the “storage” and “bootstrap” files. It should be 775 or 777</b>
+
+![alt-text](assets/img/adminpanel/13.png)
 
 <b>4. Now navigate to the web url where your project is located </b>
 
-ex. mydomain.com or subdomain.mydomain.com <b>(If the installation page doesn't show navigate to /install ex. mydomain.com/install or subdomain.mydomain.com/install)</b>
+ex. mydomain.com/install or subdomain.mydomain.com/install
 
 Click on the "Check Requirements" If some requirements is missing it will be noted out.
 
