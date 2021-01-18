@@ -42,7 +42,7 @@ as shown in the picture below:
 
 <b>4. Now navigate to the web url where your project is located </b>
 
-ex. mydomain.com or subdomain.mydomain.com
+ex. mydomain.com or subdomain.mydomain.com <b>(If the installation page doesn't show navigate to /install ex. mydomain.com/install or subdomain.mydomain.com/install)</b>
 
 Click on the "Check Requirements" If some requirements is missing it will be noted out.
 
