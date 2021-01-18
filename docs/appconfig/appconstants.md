@@ -5,6 +5,8 @@ title: App Constants
 
 In <b>lib/constants.dart</b> there are some values that you have to change
 
+![alt-text](assets/img/appconfig/appconstants/1.png)
+
 * The <b>Google Play Identifier</b> and the <b>App Store Identifier</b> are used for rating the application when it will be published.
 
 * For Admob ads:
@@ -18,6 +20,3 @@ In <b>lib/constants.dart</b> there are some values that you have to change
 </blockquote>
 
 * The last section is for the share feature of the application, change the <b>titles</b> and <b>texts</b> as you wish.
-
-![alt-text](assets/img/appconfig/appconstants/1.png)
-
