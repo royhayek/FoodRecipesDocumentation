@@ -23,7 +23,7 @@ Plesk, cPanel, hPanel and other hosting managers are recommended. In this guide,
 
 <b>1. Create your domain or subdomain in your shared hosting</b>
 
-<b>To host it on Plesk you need to create a subdomain or domain with /public  ex. subdomain.domain.com/public or domain.com/public</b>
+<b>To host it on Plesk you need to create a subdomain or domain  ex. subdomain.domain.com or domain.com</b>
 
 ![alt-text](assets/img/adminpanel/11.png)
 
@@ -44,40 +44,19 @@ as shown in the picture below:
 
 <b>3. Upload the source code you have downloaded from CodeCanyon and unzip it (found in admin_panel folder)</b>
 
-<b>After uploading the files go to Bootstrap -> cache and rename config.php to something else ex. _config.php</b>
-
-![alt-text](assets/img/adminpanel/12.png)
-
-
 <b>Then Enable writing permissions for the “storage” and “bootstrap” files. It should be 775 or 777</b>
 
 ![alt-text](assets/img/adminpanel/13.png)
 
 <b>4. Now navigate to the web url where your project is located </b>
 
-ex. mydomain.com/install or subdomain.mydomain.com/install
-
-Click on the "Check Requirements" If some requirements is missing it will be noted out.
-
-![alt-text](assets/img/adminpanel/2.png)
-
-Now let's check folder permissions. If some folder is noted as not writable, please check his permission. It should be 775 or 777
-
-![alt-text](assets/img/adminpanel/3.png)
-
-Now we need to set up the environment. This tells Laravel how to work.
-
-![alt-text](assets/img/adminpanel/4.png)
-
-Select the classic text editor.
-
-![alt-text](assets/img/adminpanel/5.png)
+ex. mydomain.com or subdomain.mydomain.com
 
 <b>5. Environment Configuration</b>
 
-<blockquote>Note: This configuration requires many steps so we will explain this more detail.</blockquote>
-
 As we already mentioned environment configuration requires many steps but just for the beginning we will need only several configurations:
+
+open the <b>.env</b> file and start editing
 
 * Applications Basics These are the first variables you will need to change.
 
@@ -90,20 +69,6 @@ APP_URL=Your website url goes here
 * Database Configuration Click on the article below to continue with the database configuration.
 
  [Database Configuration](adminpanel/databaseconfig.md)
-
- When you finish with this configuration don't forget to save the .env file.
-
-![alt-text](assets/img/adminpanel/6.png)
-
-Click on Save and install
-
-Now the install process will begin
-
-It will install all the necessary configurations. If some error occurs, the next screen will tell you that.
-
-If all goes okay, you can click on "Finish".
-
-Now you have your own instance but the configuration is not over. Now you need to continue with the other environment configuration.
 
 You will have the option to modify and add .env values later on.
 

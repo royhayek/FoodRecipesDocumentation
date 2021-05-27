@@ -22,10 +22,8 @@
     ],
     "Admin Panel": [
       "adminpanel/installation",
-      "adminpanel/environmentconfig",
       "adminpanel/databaseconfig",
       "adminpanel/mailserver",
-      "adminpanel/importdemo",
       "adminpanel/pushnotifications"
     ],
     "App Configuration": [
